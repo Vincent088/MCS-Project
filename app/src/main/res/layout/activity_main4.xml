@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ededed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/judultv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Detail"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/timerTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/judultv2"
+        android:layout_centerHorizontal="true"
+        android:text="00:00:00"
+        android:textSize="50dp"/>
+
+    <Button
+        android:id="@+id/btnStartStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timerTxt"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:text="Start"
+        android:onClick="StartStop"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timerTxt"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="270dp"
+        android:text="reset"
+        android:onClick="Reset"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnReset"
+        android:text="Input how many exercise did you do."
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <EditText
+        android:id="@+id/inputHere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:hint="Input Here"
+        android:inputType="number"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputHere"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Finish"
+        android:onClick="Finish"/>
+
+
+</RelativeLayout>

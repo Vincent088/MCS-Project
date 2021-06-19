@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Detail">
+
+    <TextView
+        android:id="@+id/txt12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="Kegiatan : "
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/txt13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="Kuantitas : "
+        android:gravity="center"
+        android:layout_marginTop="130dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="Kalori Burned : "
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="160dp" />
+    <TextView
+        android:id="@+id/txt15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="Waktu : "
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="190dp" />
+    <TextView
+        android:id="@+id/txt14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="Tanggal : "
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="220dp" />
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DElete"
+        android:ems="8"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="140dp"
+        android:gravity="center" />
+
+
+</RelativeLayout>
